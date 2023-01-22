@@ -1,0 +1,10 @@
+int selectionSort(int arreglo[], int n);
+int insertionSort(int a[], int n);
+int bubbleSort(int a[], int size);
+int HeapSort(int* A, int size);
+void Heapify(int* A, int i, int size);
+void BuildHeap(int* A, int size);
+int quickSort(int arr[], int low, int high);
+int partition(int arr[],int low,int high);
+int mergeSort(int arr[], int p, int r);
+void merge(int list[], int p, int q, int r);
